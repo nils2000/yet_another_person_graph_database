@@ -89,16 +89,6 @@ add_inhabitants("Schloss Ravenloft",["Quengelbauch","Esmeralda D'Avenir","Rahadi
 add_connection("König Barov","Strahd von Zarowitsch",{"Rolle":"Vater"})
 add_connection("Königin Ravenowia","Strahd von Zarowitsch",{"Rolle":"Mutter"})
 add_connection("Sergej von Zarowitsch","Strahd von Zarowitsch",{"Rolle":"Bruder"})
-add_inhabitants("Vallaki",["Bluto Krogarow","Baron Vargas Vallakowitsch","Vater Lucian Petrowitsch",
-"Yeska","Miliwoj","Willemina Rikalowa", "Udo Lukowitsch","Henrik van der Voort",
-"Urwin Martikow","Danika Dorakowa", "Brom Urwinkow", "Bray Urwinkow","Szlodar Szlodarowitsch",
-"Yevgeni Kruschkin","Nikolai Wachter","Karl Wachter","Fiona Wachter","Stella Wachter","Rictavio","Drusilla",
-"Piccolo","Isek Strasni","Lydia Petrowa","Victor Vallakowitsch","Nikolaj Wachter","Ernst Larnak","Dhavit","Magdalena",
-"Amalthia","Haliq","Leo Dilisnya","Gunther Arasek","Yelena Arasek","Gadof Blinsky","Luwasch","Arrigal","Arabelle",
-"Lars Kjurls"])
-add_multiple_edges_to("Werraben","races",["Urwin Martikow","Danika Dorakowa", "Brom Urwinkow", "Bray Urwinkow"])
-add_multiple("Vistani","groups","persons",["Luwasch","Arrigal","Arabelle","Alenka","Mirabel","Sorvia","Alexei","Madame Eva"])
-add_multiple("Dämmerungselfen","races","persons",["Patrina Velikowna","Kasimir Velikow","Savid"])
 add_multiple_edges_to("Nachtvetteln","races",["Morgantha","Bella Sonnenfluch","Offalia Wurmschwänzel"])
 add_item("Erzfee","races")
 G.add_edge("Ceithlenn mit den krummen Zähnen","Erzfee")
@@ -108,3 +98,4 @@ add_item("Wiedergänger","races")
 add_items("Wiedergänger",["Wladimir Horngaard","Sir Godfrey Gwylyn"])
 add_multiple_edges_to("Feste Argynvost","places",["Wladimir Horngaard","Savid","Sir Godfrey Gwylyn"])
 add_inhabitants("Kresk",["Bürgermeister Dmitrij Kreskow","Anna"])
+add_items("wichtige NPCs",["Irena Koljana","Ismark Koljanowitsch","Verna Goldbarren"])
